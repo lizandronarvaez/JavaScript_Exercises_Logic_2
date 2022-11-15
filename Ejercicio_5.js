@@ -5,7 +5,7 @@ let numero2 = prompt('Introduce otro numero: ')
 let numerosTerminadosEnCuatro = []
 // Creamos un  bucle condicional
 for (let i = numero1; i < numero2; i++) {
-    // Aplicamos un condicional para buscar los numeros terminados en 4
+    // Aplicamos un bucle para buscar los numeros terminados en 4
     i.toString().slice(-1) == 4 ? numerosTerminadosEnCuatro.push(i) : null
 }
 

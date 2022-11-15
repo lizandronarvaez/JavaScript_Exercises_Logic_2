@@ -5,7 +5,7 @@ let numeroEntero = prompt('Introduce un numero entero: ')
 let numeroEntero2 = prompt('Introduce un numero entero: ')
 // Almacenamos los numeros divisores en un array
 let arrayNumeros = []
-//Aplicando un condicional para imprimir los numeros
+//Aplicando un bucle para imprimir los numeros
 for (let i = numeroEntero; i < numeroEntero2; i++) {
     arrayNumeros.push(i)
 }
