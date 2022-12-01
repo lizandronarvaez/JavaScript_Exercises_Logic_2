@@ -2,7 +2,7 @@
 let numerosArray = [];
 function multiplos_de_cinco(numero) {
     for (let i = 1; i < numero; i++) {
-        if (i % 5 == 0) numerosArray.push(i)
+        i % 5 == 0 ? numerosArray.push(i) : null
     }
 }
 multiplos_de_cinco(20)
